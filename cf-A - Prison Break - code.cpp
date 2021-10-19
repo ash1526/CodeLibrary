@@ -27,7 +27,8 @@ int main()
        ll n, m, a, b, x, y;
        cin >> x >> y >> a >> b;
        ll max1=max(a-1+y-b, a-1+b-1), max2=max(x-a+b-1,x-a+y-b);
-        cout<< max(max1, max2)<< endl; 
+//         cout<< max(max1, max2)<< endl; 
+	    cout<< max(max1, max2)<< "\n";
       }
 	return 0;
 }
