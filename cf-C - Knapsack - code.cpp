@@ -47,7 +47,8 @@ int main()
             cout<< v.size()<< endl;
             rep(i, 0, v.size()) cout<< v[i]+1<< " "; cout<< endl;
         }
-        else cout<< -1 <<endl;
+//         else cout<< -1 <<endl;
+	    else cout<< -1 <<"\n";
         
     }
 	return 0;
