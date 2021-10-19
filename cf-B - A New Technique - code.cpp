@@ -102,7 +102,8 @@ int main()
   					{
   						cout << adj[j][k]<<" ";
   					}
-  					cout<< endl;
+//   					cout<< endl;
+					cout<<"\n";
   				}		
   			}
   		}
